@@ -1,0 +1,45 @@
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.restaurant-entry {
+    text-align: center; /* Center-align content within each entry */
+}
+
+.restaurant-entry img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.restaurant-entry img:hover {
+    transform: scale(0.9);
+}
+
+
+.restaurant-details {
+    font-family: Okra, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.restaurant-details .restaurant-name{
+    font-size: 25px;
+    color:rgb(177, 57, 1);
+}
+
+.restaurant-details  .price{
+    padding: 13px 0;
+    font-size: 25px;
+}
+
+.fa-star{
+    border: 2px solid black;
+    padding: 3px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50%;
+}

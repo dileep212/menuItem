@@ -1,0 +1,93 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a font family for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+/* Header styles */
+header {
+    background-color: red; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-right: 70px;
+}
+
+.logo img {
+    width: 80px; 
+    height: 50px; 
+    margin-right: 10px; 
+    padding-left: 80px;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: yellow;
+    font-weight: bold;
+}
+
+/* About section styles */
+.about-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: rgb(63, 215, 236);
+    color: #fff;
+    padding: 10px 0;
+}
+
